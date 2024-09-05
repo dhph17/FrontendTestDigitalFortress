@@ -24,7 +24,7 @@ const Login = () => {
                             <input required type="email" placeholder="Email" className="w-full px-9 py-2 bg-black border-none rounded-md text-white focus:outline-none" />
                             <FontAwesomeIcon icon={faEnvelope} className='absolute top-3 left-3  ' />
                         </div>
-                        <div className="form-password w-full relative mb-3 p-[1px] bg-gradient-to-r from-[#82DBF7] to-[#B6F09C] bg-custom-black ounded-md">
+                        <div className="form-password w-full relative mb-3 p-[1px] bg-gradient-to-r from-[#82DBF7] to-[#B6F09C] bg-custom-black rounded-md">
                             <input required type="password" placeholder="Password" className="w-full px-9 py-2 bg-black border-none rounded-md text-white focus:outline-none" />
                             <FontAwesomeIcon icon={faLock} className='absolute top-3 left-3  ' />
 

@@ -8,18 +8,18 @@ const Table = () => {
     return (
         <table className='text-white w-full'>
             <thead>
-                <tr className=''>
-                    <th className='text-left'>
+                <tr className='border-b border-slate-100'>
+                    <th className='text-left p-2'>
                         <input type="checkbox" name="project" id="" />
                         <label htmlFor="project">Project</label>
                     </th>
-                    <th className='text-left'>Last assessed</th>
-                    <th className='text-left'>License use</th>
+                    <th className='text-left p-2'>Last assessed</th>
+                    <th className='text-left p-2'>License use</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td className='flex items-center'>
+                <tr className='border-b border-slate-100'>
+                    <td className='flex items-center p-2'>
                         <input type="checkbox" name="checked" id="checked" />
                         <label htmlFor="checked" className='flex'>
                             <div style={{ backgroundImage: `url(${Ava})` }} className='ml-2 mr-3 w-12 h-12 bg-cover bg-center rounded-full'></div>
@@ -29,10 +29,10 @@ const Table = () => {
                             </div>
                         </label>
                     </td>
-                    <td className='text-custom-nav'>
+                    <td className='text-custom-nav p-2'>
                         22 Jan 2022
                     </td>
-                    <td className='flex justify-between'>
+                    <td className='flex justify-between p-2'>
                         <div className="license flex">
                             <div className='bg-custom-active px-2 py-1 mr-2 rounded-xl'>
                                 <p className='text-custom-active'>Active</p>
@@ -50,8 +50,8 @@ const Table = () => {
                         </div>
                     </td>
                 </tr>
-                <tr>
-                    <td className='flex items-center'>
+                <tr className='border-b border-slate-100'>
+                    <td className='flex items-center p-2'>
                         <input type="checkbox" name="checked" id="checked" />
                         <label htmlFor="checked" className='flex'>
                             <div style={{ backgroundImage: `url(${Ava})` }} className='ml-2 mr-3 w-12 h-12 bg-cover bg-center rounded-full'></div>
@@ -61,10 +61,10 @@ const Table = () => {
                             </div>
                         </label>
                     </td>
-                    <td className='text-custom-nav'>
+                    <td className='text-custom-nav p-2'>
                         22 Jan 2022
                     </td>
-                    <td className='flex justify-between'>
+                    <td className='flex justify-between p-2'>
                         <div className="license flex">
                             <div className='bg-custom-active px-2 py-1 mr-2 rounded-xl'>
                                 <p className='text-custom-active'>Active</p>
@@ -82,8 +82,8 @@ const Table = () => {
                         </div>
                     </td>
                 </tr>
-                <tr>
-                    <td className='flex items-center'>
+                <tr className='border-b border-slate-100'>
+                    <td className='flex items-center p-2'>
                         <input type="checkbox" name="checked" id="checked" />
                         <label htmlFor="checked" className='flex'>
                             <div style={{ backgroundImage: `url(${Ava})` }} className='ml-2 mr-3 w-12 h-12 bg-cover bg-center rounded-full'></div>
@@ -93,10 +93,10 @@ const Table = () => {
                             </div>
                         </label>
                     </td>
-                    <td className='text-custom-nav'>
+                    <td className='text-custom-nav p-2'>
                         22 Jan 2022
                     </td>
-                    <td className='flex justify-between'>
+                    <td className='flex justify-between p-2'>
                         <div className="license flex">
                             <div className='bg-custom-active px-2 py-1 mr-2 rounded-xl'>
                                 <p className='text-custom-active'>Active</p>
@@ -114,8 +114,8 @@ const Table = () => {
                         </div>
                     </td>
                 </tr>
-                <tr>
-                    <td className='flex items-center'>
+                <tr className='border-b border-slate-100'>
+                    <td className='flex items-center p-2'>
                         <input type="checkbox" name="checked" id="checked" />
                         <label htmlFor="checked" className='flex'>
                             <div style={{ backgroundImage: `url(${Ava})` }} className='ml-2 mr-3 w-12 h-12 bg-cover bg-center rounded-full'></div>
@@ -125,10 +125,10 @@ const Table = () => {
                             </div>
                         </label>
                     </td>
-                    <td className='text-custom-nav'>
+                    <td className='text-custom-nav p-2'>
                         22 Jan 2022
                     </td>
-                    <td className='flex justify-between'>
+                    <td className='flex justify-between p-2'>
                         <div className="license flex">
                             <div className='bg-custom-active px-2 py-1 mr-2 rounded-xl'>
                                 <p className='text-custom-active'>Active</p>
@@ -146,8 +146,8 @@ const Table = () => {
                         </div>
                     </td>
                 </tr>
-                <tr>
-                    <td className='flex items-center'>
+                <tr className='border-b border-slate-100'>
+                    <td className='flex items-center p-2'>
                         <input type="checkbox" name="checked" id="checked" />
                         <label htmlFor="checked" className='flex'>
                             <div style={{ backgroundImage: `url(${Ava})` }} className='ml-2 mr-3 w-12 h-12 bg-cover bg-center rounded-full'></div>
@@ -157,10 +157,10 @@ const Table = () => {
                             </div>
                         </label>
                     </td>
-                    <td className='text-custom-nav'>
+                    <td className='text-custom-nav p-2'>
                         22 Jan 2022
                     </td>
-                    <td className='flex justify-between'>
+                    <td className='flex justify-between p-2'>
                         <div className="license flex">
                             <div className='bg-custom-active px-2 py-1 mr-2 rounded-xl'>
                                 <p className='text-custom-active'>Active</p>
@@ -178,8 +178,8 @@ const Table = () => {
                         </div>
                     </td>
                 </tr>
-                <tr>
-                    <td className='flex items-center'>
+                <tr className='border-b border-slate-100'>
+                    <td className='flex items-center p-2'>
                         <input type="checkbox" name="checked" id="checked" />
                         <label htmlFor="checked" className='flex'>
                             <div style={{ backgroundImage: `url(${Ava})` }} className='ml-2 mr-3 w-12 h-12 bg-cover bg-center rounded-full'></div>
@@ -189,10 +189,10 @@ const Table = () => {
                             </div>
                         </label>
                     </td>
-                    <td className='text-custom-nav'>
+                    <td className='text-custom-nav p-2'>
                         22 Jan 2022
                     </td>
-                    <td className='flex justify-between'>
+                    <td className='flex justify-between p-2'>
                         <div className="license flex">
                             <div className='bg-custom-active px-2 py-1 mr-2 rounded-xl'>
                                 <p className='text-custom-active'>Active</p>
@@ -211,8 +211,6 @@ const Table = () => {
                     </td>
                 </tr>
             </tbody>
-
-
         </table>
     )
 }

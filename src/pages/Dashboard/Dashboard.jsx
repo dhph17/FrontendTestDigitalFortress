@@ -19,19 +19,19 @@ const Dashboard = () => {
                 <hr />
                 <div className='mt-5 px-2'>
                     <ul>
-                        <li className="bg-custom-green w-full text-black py-1 rounded-md px-2 mb-2">
+                        <li className="bg-custom-green w-full text-black py-1 rounded-md px-2 mb-2 cursor-pointer">
                             <FontAwesomeIcon className="mr-2" icon={faTableColumns} />
                             Dashboard
                         </li>
-                        <li className="w-full text-custom-nav py-1 rounded-md px-2 mb-2">
+                        <li className="w-full text-custom-nav py-1 rounded-md px-2 mb-2 hover:bg-gray-200 hover:text-black transition-colors duration-300 cursor-pointer">
                             <FontAwesomeIcon className="mr-2" icon={faTableColumns} />
                             Task
                         </li>
-                        <li className="w-full text-custom-nav py-1 rounded-md px-2 mb-2">
+                        <li className="w-full text-custom-nav py-1 rounded-md px-2 mb-2 hover:bg-gray-200 hover:text-black transition-colors duration-300 cursor-pointer">
                             <FontAwesomeIcon className="mr-2" icon={faTableColumns} />
                             Project
                         </li>
-                        <li className="w-full text-custom-nav py-1 rounded-md px-2 mb-2">
+                        <li className="w-full text-custom-nav py-1 rounded-md px-2 mb-2 hover:bg-gray-200 hover:text-black transition-colors duration-300 cursor-pointer">
                             <FontAwesomeIcon className="mr-2" icon={faTableColumns} />
                             Schedule
                         </li>
