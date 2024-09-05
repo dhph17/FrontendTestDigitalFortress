@@ -1,0 +1,10 @@
+.item-pagination {
+    padding: 10% 20px;
+    background-color: #374151;
+    color: white;
+    border-radius: 5px;
+}
+
+.active .item-pagination {
+    background-color: #0E5A3A;
+}
